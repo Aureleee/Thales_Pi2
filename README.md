@@ -5,7 +5,7 @@ git clone <url_du_repo>
 cd <nom_du_repo>
 ```
 
-Lancer ComfyUI (comme d’habitude, à part).
+Lancer ComfyUI
 
 Créer l’environnement et installer les dépendances
 
@@ -22,7 +22,7 @@ source venv/bin/activate
 Lancer le script
 
 ```bash
-python main.py
+python main_pipe.py
 ```
 
 Le script envoie les images à ComfyUI, lance le workflow et récupère les outputs automatiquement.
